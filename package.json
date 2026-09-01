@@ -10,6 +10,7 @@
     "setup": "node setup.js"
   },
   "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -21,8 +22,8 @@
     "helmet": "^8.1.0",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
-    "sqlite3": "^6.0.1",
-    "swagger-jsdoc": "^6.3.0",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^3.7.0",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
@@ -34,15 +35,6 @@
   "allowScripts": {
     "@scarf/scarf@1.4.0": true,
     "bcrypt@5.1.1": true,
-    "sqlite3@6.0.1": true
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/migteles/hub-de-leitura-integrado.git"
-  },
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/migteles/hub-de-leitura-integrado/issues"
-  },
-  "homepage": "https://github.com/migteles/hub-de-leitura-integrado#readme"
+    "sqlite3@5.1.7": true
+  }
 }
